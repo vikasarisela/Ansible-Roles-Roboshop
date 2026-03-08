@@ -4,4 +4,4 @@
   roles:
   - "{{ component }}" 
 
-# ansible-playbook -i inventory main.yaml -e "component=redis"
+# ansible-playbook -i inventory.ini main.yaml -e "component=redis"
