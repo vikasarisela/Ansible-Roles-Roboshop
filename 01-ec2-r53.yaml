@@ -8,8 +8,8 @@
     domain_name: "cloudskills.fun"
     # we can pass instances through command line using -e
     # ansible-playbook -i inventory.ini 01-ec2-r53.yaml -e "instances=['redis,'mysql''user','catalogue']"
-    instances: 
-     - mongodb
+   # instances: 
+    # - mongodb
     # - redis
     # - mysql
     # - rabbitmq
