@@ -1,3 +1,5 @@
 MONGODB_HOST: mongodb.cloudskills.fun
 REDIS_HOST: redis.cloudskills.fun
 CATALOGUE_HOST: catalogue.cloudskills.fun
+CART_HOST: cart.cloudskills.fun
+MYSQL_HOST: mysql.cloudskills.fun

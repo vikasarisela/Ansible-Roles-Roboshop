@@ -1,0 +1,5 @@
+- name: daemon reload 
+  # systemctl daemon-reload 
+# catalogue.service changes then only daemon should be reloaded 
+  ansible.builtin.systemd_service:
+    daemon_reload: true
