@@ -2,6 +2,4 @@
   hosts: "{{ component }}"
   become: yes
   roles:
-  - "{{ component }}" 
-
-# ansible-playbook -i inventory.ini main.yaml -e "component=redis"
+  - "{{ component }}"
